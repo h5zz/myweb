@@ -29,7 +29,7 @@ module.exports = {
             user:'root',
             host:['47.94.19.240'],
             port:'80',
-            path:'./myweb',
+            path:'/www/website',
             repo:'git@github.com:h5zz/myweb.git',
             ref:'origin/master',
             ssh_options:'StrictHostKeyChecking=no',
