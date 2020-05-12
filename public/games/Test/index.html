@@ -32,7 +32,7 @@
         window["loginType"] = 0; ////测试 0=测试 1 正式
         var s = document.createElement('script');
         s.async = false;
-        s.src = 'index.js?' + Math.random();
+        s.src = '/games/Test/index.js?' + Math.random();
         s.addEventListener('load', function() {
             s.parentNode.removeChild(s);
             s.removeEventListener('load', arguments.callee, false);
