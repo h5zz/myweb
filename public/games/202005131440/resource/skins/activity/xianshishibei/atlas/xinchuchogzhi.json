@@ -1,0 +1,13 @@
+{"file":"xinchuchogzhi.png","frames":{
+"bei10":{"x":706,"y":262,"w":91,"h":99,"offX":0,"offY":0,"sourceW":91,"sourceH":99},
+"bei20":{"x":930,"y":0,"w":91,"h":99,"offX":0,"offY":0,"sourceW":91,"sourceH":99},
+"contentTip10":{"x":0,"y":146,"w":474,"h":129,"offX":0,"offY":0,"sourceW":474,"sourceH":129},
+"contentTip20":{"x":0,"y":0,"w":560,"h":146,"offX":0,"offY":0,"sourceW":560,"sourceH":146},
+"shouxing":{"x":930,"y":99,"w":89,"h":43,"offX":0,"offY":0,"sourceW":89,"sourceH":43},
+"shu":{"x":825,"y":0,"w":105,"h":117,"offX":0,"offY":0,"sourceW":105,"sourceH":117},
+"xianshila10":{"x":560,"y":92,"w":247,"h":92,"offX":0,"offY":0,"sourceW":247,"sourceH":92},
+"xianshila20":{"x":560,"y":0,"w":265,"h":92,"offX":0,"offY":0,"sourceW":265,"sourceH":92},
+"xinchunclick":{"x":706,"y":184,"w":232,"h":78,"offX":0,"offY":0,"sourceW":232,"sourceH":78},
+"xinchunclickdown":{"x":474,"y":184,"w":232,"h":81,"offX":0,"offY":0,"sourceW":232,"sourceH":81},
+"xinchunguanbi":{"x":938,"y":142,"w":62,"h":52,"offX":0,"offY":0,"sourceW":62,"sourceH":52},
+"xinchunguanbidainji":{"x":807,"y":117,"w":62,"h":52,"offX":0,"offY":0,"sourceW":62,"sourceH":52}}}

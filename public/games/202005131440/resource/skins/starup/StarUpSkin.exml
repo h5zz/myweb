@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="StarUpSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="580" height="930">
+	<w:Config id="159bef2916a" />
+	<e:Image top="0" bottom="0" source="tongyongmianbanbg2" width="580" horizontalCenter="0"  scale9Grid="11,8,12,23"/>
+	<e:Image horizontalCenter="0" x="34"  width="580" source="star_enhance_bg_png" anchorOffsetY="0" bottom="306" top="-12"/>
+
+
+	<e:Group id="itemGroup" height="400" left="20" right="20" verticalCenter="-44" anchorOffsetY="0">
+
+	</e:Group>
+
+	<e:Group id="zlskin" horizontalCenter="0" bottom="85" top="54">
+
+		<e:Group id="dinghong0" width="556" height="104" x="2" y="599">
+			<e:Image x="0" top="0" bottom="18" source="bantoumingkuang3" anchorOffsetY="0"/>
+			<e:Image scaleX="-1" top="0" bottom="18" source="bantoumingkuang3" right="1" anchorOffsetY="0"/>
+		</e:Group>
+		<e:Group id="upInfo" height="103" width="560" anchorOffsetY="0" horizontalCenter="0" bottom="0">
+			<e:Group horizontalCenter="1" bottom="81" anchorOffsetY="0" height="43">
+			<e:Label text="消耗: " size="20" bold="true" x="2" y="32" textColor="0xd1c28f" width="61" height="21"/>
+			<e:Image id="needimg0" x="209" width="40" height="40" source="200136_png" y="20"/>
+			<e:Label id="countLabel0" text="120/100" size="20" textAlign="left" x="249" y="37" textColor="0xd1c28f"/>
+				<e:Image id="needimg1" x="66" width="40" height="40" source="200136_png" y="20"/>
+				<e:Label id="countLabel1" text="120/100" size="20" textAlign="left" x="104" y="34" textColor="0xD1C28F"/>
+				<e:layout>
+					<e:BasicLayout/>
+				</e:layout>
+
+			</e:Group>
+			<e:Button id="upGradeBtn" label="激 活" skinName="Btn1Skin" horizontalCenter="0" bottom="10"/>
+			<e:Label id="getItemTxt" text="获取道具" size="20" textColor="0x00FF00" bottom="28" horizontalCenter="172" width="100" height="30" verticalAlign="middle" textAlign="center"/>
+
+		</e:Group>
+		<ns1:BaseComponent id="powerPanel" skinName="PowerPanelSkin" className="PowerPanel" x="139" y="70"/>
+
+		<e:Group width="512" horizontalCenter="0" bottom="216" top="27">
+			<e:Image id="btnImg0" touchEnabled="true" width="140" height="130" y="342" x="187" anchorOffsetX="0" anchorOffsetY="0" fillMode="clip" scaleX="1" source="equip_train_pos_selected_png"/>
+			
+			
+			<ns1:BaseComponent id="item0" skinName="StarUpItemSkin" className= "StarupItemRender" y="360" x="215"/>	
+			<ns1:BaseComponent id="item1" skinName="StarUpItemSkin" className= "StarupItemRender" y="180" x="320"/>	
+			<ns1:BaseComponent id="item2" skinName="StarUpItemSkin" className= "StarupItemRender" y="180" x="95"/>	
+		</e:Group>
+	</e:Group>
+	<e:Group width="480" height="116" anchorOffsetY="0" horizontalCenter="0" x="40" scaleX="1" scaleY="1" bottom="214">
+		<e:Image height="68" y="30" source="shuxingbg" scale9Grid="36,6,113,39" left="0" right="0"/>
+		<e:Image source="shuxingbg2" scale9Grid="188,0,5,32" width="240" left="0"/>
+		<e:Image source="shuxingbg2" scale9Grid="188,0,5,32" width="240" scaleX="-1" right="0"/>
+		<e:Group x="40" y="44">
+		<e:Label id="attr1" text="攻击+10000" size="18" textAlign="center" x="0" textColor="0x9F946D" y="0"/>
+		<e:Image id="arrow1" x="119" y="1" rotation="90" source="tongyongup"/>
+		<e:Label id="addAttr1" text="22222" size="18" textAlign="center" x="124" textColor="0x32FF00" y="0"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+		</e:Group>
+		<e:Group x="260" y="44">
+		<e:Label id="attr0" text="生命+10000" size="18" textAlign="center" x="0" textColor="0x9F946D" y="0"/>
+		<e:Image id="arrow0" source="tongyongup" x="120" y="1" rotation="90"/>
+		<e:Label id="addAttr0" text="222222" size="18" textAlign="center" textColor="0x32FF00" x="126" y="0"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+		</e:Group>
+		<e:Group x="260" y="68">
+		<e:Label id="attr2" text="物防 +100" size="18" textAlign="center" x="0" textColor="0x9F946D" y="0"/>
+		<e:Image id="arrow2" source="tongyongup" x="112" y="1" rotation="90"/>
+		<e:Label id="addAttr2" text="2222" size="18" textAlign="center" textColor="0x32FF00" x="126" y="0"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+		</e:Group>
+		<e:Group x="40" y="68">
+		<e:Label id="attr3" text="魔防 +100" size="18" textAlign="center" x="0" textColor="0x9F946D" y="0"/>
+		<e:Image id="arrow3" source="tongyongup" x="111" y="1" rotation="90"/>
+		<e:Label id="addAttr3" text="2222" size="18" textAlign="center" textColor="0x32FF00" x="124" y="0"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+		</e:Group>
+		<e:Label id="attr_ex" text="特殊属性描述" size="18" textAlign="left" x="35" textColor="0x9F946D" y="91" width="420"/>
+		<e:Label id="attr" text="攻击 +100\n法师+9999\n法师+9999\n法师+9999" size="18" textAlign="center" y="40" height="50" width="400" lineSpacing="5" horizontalCenter="0" verticalAlign="middle" textColor="0xf8b141" visible="false"/>
+	</e:Group>
+	<ns1:BaseComponent id="roleSelect" skinName="RoleSelectPanelSkin" width="580" horizontalCenter="0" className="RoleSelectPanel" top="0"/>
+
+
+
+	<e:Label id="maxDesc" text="精炼已满级"   horizontalCenter="0" textColor="0x9F946D" size="24" bold="true" bottom="30" visible="false"/>
+		<e:Button id="closeBtn" label="按钮" skinName="Btn0Skin" icon="chatclose" scaleX="0.8" scaleY="0.8" top="46" right="1"/>
+</e:Skin>

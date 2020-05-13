@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>神秘大作</title>
+	<!--防止index.html被浏览器缓存--begin-->
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
+	<!--防止index.html被浏览器缓存--over-->
+
+	<link href="favicon.ico" rel="shortcut icon" />
+	<meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="full-screen" content="true" />
+	<meta name="screen-orientation" content="portrait" />
+	<meta name="x5-fullscreen" content="true" />
+	<meta name="360-fullscreen" content="true" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<style>
+		html,
+		body {
+			-ms-touch-action: none;
+			background: #FFFFFF;
+			padding: 0;
+			border: 0;
+			margin: 0;
+			height: 100%;
+		}
+	</style>
+</head>
+
+<body>
+	<div>
+		<font size="4">服务器</font>
+		<br>
+		<select id="serverSelect">
+			<option value = '{"ip":"101.251.197.130","id":80,"port":9101}' >外网测试服</option>
+		</select>
+		<br><br>
+		<font size="4">前端资源</font>
+		<br>
+		<select id="resourceSelect">
+			<option value="http://192.168.0.101:80/">我的本地资源</option>
+		
+		</select>
+		<br><br>
+		<!--<font size="4">前端代码</font>
+		<br>
+		<select id="clientSelect">
+			<option value = "">本地代码</option>
+		</select>
+		<br><br>-->
+		<font size="4">扩展登陆参数</font>
+		<input id="exdata" type="text" size="4" style="width:500px;"></input>
+		<br><br>
+		<font size="4">账号</font>
+		<input id="acount" type="text" size="4" style="width:500px;"></input>
+		<br><br>
+		<button type="button" onclick="javascript:button_onclick();">点击登陆</button>
+	</div>
+
+
+<script>
+	document.getElementById("serverSelect").selectedIndex = +localStorage.getItem("selectedIndex1") || 0;
+	document.getElementById("resourceSelect").selectedIndex = +localStorage.getItem("selectedIndex2") || 0;
+	document.getElementById("exdata").value = localStorage.getItem("exdata") || "";
+	document.getElementById("acount").value = localStorage.getItem("acount") || "";
+	function button_onclick() {
+		var acount = document.getElementById("acount").value
+		var server = JSON.parse(document.getElementById("serverSelect").value);
+		var host = document.getElementById("resourceSelect").value;
+		var exdata = document.getElementById("exdata").value;
+
+		localStorage.setItem("exdata", exdata);
+		localStorage.setItem("acount", acount);
+		localStorage.setItem("selectedIndex1", document.getElementById("serverSelect").selectedIndex);
+		localStorage.setItem("selectedIndex2", document.getElementById("resourceSelect").selectedIndex);
+			//+"&egretWidth="+640
+			//+"&egretHeight="+1136
+			//+"&orientation="+"portrait"
+		var paraUrl = window.location.href
+			+ "?srvid=" + server.id
+			+ "&user=" + acount
+			+ "&serverid=" + server.id
+			+ "&srvaddr=" + server.ip
+			+ "&srvport=" + server.port
+			+ "&hosts=" + host
+			+"&egretWidth="+window.innerWidth
+			+"&egretHeight="+window.innerHeight
+			+"&orientation="+"portrait"
+			+"&scaleMode="+"showAll"
+			+ "&" + exdata;
+
+		window.parent.postMessage(
+			paraUrl
+			, "*")
+	}
+</script>
+</body>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ZhenBaoGeItemSkin" width="574" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="458">
+
+
+
+	<e:Image source="zhenbaoge_ditu_png"/>
+
+
+
+
+
+
+
+	<e:Group width="574" anchorOffsetY="0" y="124" x="0">
+	<e:Image source="zhenbaoge_json.libaodi" y="-8" horizontalCenter="7.5"/>
+
+	<e:Image source="zhenbaoge_json.xiangoudi" x="162" y="-3"/>
+
+	<e:Label id="xiangou0" text="限购1次" x="170" y="2" size="18" anchorOffsetY="0" height="43" anchorOffsetX="0" width="43" textAlign="center" textColor="0xd2d031"/>
+
+	<e:Label id="xiangouName0" text="羽翼大礼包" x="232" y="5" size="26" anchorOffsetY="0" anchorOffsetX="0" italic="true" bold="true" textColor="0xd2d031"/>
+
+	<e:Label id="cdTime0" text="剩余时间：" x="215" y="53" size="16" bold="true" textColor="0xcecead"/>
+
+	<e:Label id="desc0" text="开服" y="75" horizontalCenter="0" size="18" textColor="0xfffc00"/>
+
+	<e:Group x="224" y="192">
+		<e:Label id="original0" text="原价：1000元" size="22" scaleX="1" scaleY="1" bold="true" textColor="0xcecead"/>
+		<e:Image source="zhenbaoge_json.yuanjia" y="6" left="63" right="-4" scale9Grid="6,1,5,7"/>
+	</e:Group>
+
+	<e:Button id="btn0" label="充值100元宝" y="222" horizontalCenter="0.5" height="80">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image y="-33" source="zhenbaoge_json.anniu" source.down="zhenbaoge_json.anniu"/>
+			<e:Label size="24" textColor="0xffd621" id="labelDisplay" horizontalCenter="8" verticalCenter="3" stroke="1" bold="true"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+	<e:Image id="adopt0" source="zhenbaoge_json.goumai" x="245" y="216"/>
+
+		<e:List id="reward0" itemRendererSkinName="ItemSkin" anchorOffsetX="0" y="100" horizontalCenter="9.5" scaleX="0.9" scaleY="0.9">
+			<e:layout>
+			<e:HorizontalLayout paddingLeft="-8" gap="25"/>
+			</e:layout>
+
+		</e:List>
+
+	</e:Group>
+
+
+</e:Skin>

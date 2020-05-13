@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ThunderZlskin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="580" height="930">
+	<w:Config id="159bef2916a" />
+	<e:Image top="0" bottom="0" source="tongyongmianbanbg2" width="580" horizontalCenter="-1" scale9Grid="15,12,2,3" />
+    <e:Image width="570" horizontalCenter="0" source="tongyongmianbanbg" scale9Grid="19,12,14,25" top="44" bottom="155" />
+
+
+	<e:ViewStack id="viewStack" width="580" selectedIndex="0" horizontalCenter="0" top="52" bottom="166">
+		<ns1:BaseComponent id="thunderZlWin" name="淬炼" left="0" right="0" top="0" bottom="73" anchorOffsetY="0" visible="false"/>
+		<ns1:BaseComponent id="thunderjHWin" name="套装" skinName="ThunderJhskin" className="ThunderJhWin" left="0" right="0" top="0" bottom="0" visible="false"/>
+    </e:ViewStack>
+	<e:Group id="items" bottom="346" anchorOffsetX="0" width="564" horizontalCenter="2" top="-26">
+		<e:Image width="560" source="equipup_bg_png" anchorOffsetY="0" horizontalCenter="-1" bottom="0" top="68"/>
+		<ns1:BaseComponent id="item0" skinName="ThunderZBItemSkin" className="ThunderZBItemRender" horizontalCenter="-229" bottom="354" height="76"/>
+		<ns1:BaseComponent id="item1" skinName="ThunderZBItemSkin" className="ThunderZBItemRender" right="15" horizontalCenter="229" bottom="354" height="76"/>
+		<ns1:BaseComponent id="item2" skinName="ThunderZBItemSkin" className="ThunderZBItemRender" horizontalCenter="-229" bottom="248" height="76"/>
+		<ns1:BaseComponent id="item3" skinName="ThunderZBItemSkin" className="ThunderZBItemRender" right="15" horizontalCenter="229" bottom="248" height="76"/>
+		<ns1:BaseComponent id="item4" skinName="ThunderZBItemSkin" className="ThunderZBItemRender" horizontalCenter="-229" bottom="142" height="76"/>
+		<ns1:BaseComponent id="item5" skinName="ThunderZBItemSkin" className="ThunderZBItemRender" right="15" horizontalCenter="229" bottom="142" height="76"/>
+		<ns1:BaseComponent id="item6" skinName="ThunderZBItemSkin" className="ThunderZBItemRender" horizontalCenter="-229" bottom="36" height="76"/>
+		<ns1:BaseComponent id="item7" skinName="ThunderZBItemSkin" className="ThunderZBItemRender" right="15" horizontalCenter="229" bottom="36" height="76"/>
+		<e:Image id="lt_pos_0" width="38" height="24" source="equipup_name_0_png" horizontalCenter="-160" bottom="147"/>
+		<e:Image id="lt_pos_1" width="38" height="24" source="equipup_name_1_png" horizontalCenter="-99" bottom="107"/>
+		<e:Image id="lt_pos_2" width="38" height="24" source="equipup_name_2_png" horizontalCenter="-7" bottom="96"/>
+		<e:Image id="lt_pos_3" width="38" height="24" source="equipup_name_3_png" horizontalCenter="86" bottom="109"/>
+		<e:Image id="lt_pos_4" width="38" height="24" source="equipup_name_4_png" horizontalCenter="150" bottom="149"/>
+		<ns1:BaseComponent id="lock_3" className="ThunderIconItemRender" skinName="ThunderIconItemSkin" horizontalCenter="75" bottom="142" height="80"/>
+		<ns1:BaseComponent id="lock_4" className="ThunderIconItemRender" skinName="ThunderIconItemSkin" horizontalCenter="147" bottom="177" height="80"/>
+		<ns1:BaseComponent id="lock_1" className="ThunderIconItemRender" skinName="ThunderIconItemSkin" horizontalCenter="-87" bottom="142" height="80"/>
+		<ns1:BaseComponent id="lock_0" className="ThunderIconItemRender" skinName="ThunderIconItemSkin" horizontalCenter="-154" bottom="188" height="80"/>
+		<ns1:BaseComponent id="lock_2" className="ThunderIconItemRender" skinName="ThunderIconItemSkin" horizontalCenter="-10" bottom="122" height="80"/>
+	</e:Group>
+	<e:Group id="dinghong0" width="575" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-0.5" height="153" bottom="162">
+		<e:Image x="1" bottom="0" source="bantoumingkuang3" anchorOffsetY="0" height="182"/>
+		<e:Image scaleX="-1" source="bantoumingkuang3" x="556" height="182" bottom="0" anchorOffsetY="0"/>
+		<e:Group id="upInfo" height="110" width="560" x="11" anchorOffsetY="0" y="33">
+		<e:Group horizontalCenter="0" bottom="68">
+			<e:Label text="消耗: " size="20" bold="true" x="1" y="2" textColor="0xd1c28f"/>
+			<e:Image id="needimg" x="54" width="40" height="40" verticalCenter="0" source="200136_png"/>
+			<e:Label id="countLabel" text="120/100" size="20" textAlign="left" x="94" y="2" textColor="0xd1c28f"/>
+			<e:layout>
+			<e:HorizontalLayout gap="0" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="upGradeBtn" label="淬  炼" skinName="Btn1Skin" horizontalCenter="5" bottom="13"/>
+		<e:Label id="getItemTxt" text="获取道具" size="20" textColor="0x00FF00" bottom="28" horizontalCenter="172" width="100" height="30" verticalAlign="middle" textAlign="center"/>
+		<e:Image source="tongyongmianbanbg2" width="580" scale9Grid="15,12,2,3" x="-18" y="-657"/>
+		</e:Group>
+		<e:Group width="480" height="100" horizontalCenter="-7.5" bottom="111">
+		<e:Image height="68" y="30" source="shuxingbg" scale9Grid="36,6,113,39" left="0" right="0"/>
+		<e:Image source="shuxingbg2" scale9Grid="188,0,5,32" width="240" left="0"/>
+		<e:Image source="shuxingbg2" scale9Grid="188,0,5,32" width="240" scaleX="-1" right="0"/>
+		<e:Group x="40" y="44">
+			<e:Label id="attr1" text="攻击+10000" size="18" textAlign="center" x="0" textColor="0x9F946D" y="0"/>
+			<e:Image id="arrow1" x="119" y="1" rotation="90" source="tongyongup"/>
+			<e:Label id="addAttr1" text="22222" size="18" textAlign="center" x="124" textColor="0x32FF00" y="0"/>
+			<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Group x="260" y="44">
+			<e:Label id="attr0" text="生命+10000" size="18" textAlign="center" x="0" textColor="0x9F946D" y="0"/>
+			<e:Image id="arrow0" source="tongyongup" x="120" y="1" rotation="90"/>
+			<e:Label id="addAttr0" text="222222" size="18" textAlign="center" textColor="0x32FF00" x="126" y="0"/>
+			<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Group x="40" y="68">
+			<e:Label id="attr2" text="物防 +100" size="18" textAlign="center" x="0" textColor="0x9F946D" y="0"/>
+			<e:Image id="arrow2" source="tongyongup" x="112" y="1" rotation="90"/>
+			<e:Label id="addAttr2" text="2222" size="18" textAlign="center" textColor="0x32FF00" x="126" y="0"/>
+			<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Group x="260" y="68">
+			<e:Label id="attr3" text="魔防 +100" size="18" textAlign="center" x="0" textColor="0x9F946D" y="0"/>
+			<e:Image id="arrow3" source="tongyongup" x="111" y="1" rotation="90"/>
+			<e:Label id="addAttr3" text="2222" size="18" textAlign="center" textColor="0x32FF00" x="124" y="0"/>
+			<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+
+
+		</e:Group>
+	</e:Group>
+
+
+	
+	
+	
+
+	
+
+		
+
+
+	<ns1:BaseComponent id="powerPanel" skinName="PowerPanelSkin" className="PowerPanel" horizontalCenter="-10" top="118"/>
+
+	
+	<ns1:BaseComponent id="roleSelect" skinName="RoleSelectPanelSkin" width="580" horizontalCenter="0" className="RoleSelectPanel" x="0" scaleX="1" scaleY="1" anchorOffsetY="0" height="132" top="-1"/>
+	<e:TabBar id="tab" itemRendererSkinName="BtnTab0Skin" dataProvider="{viewStack}" selectedIndex="0" x="167" bottom="112">
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:TabBar>
+	<e:Label id="maxDesc" text="精炼已满级"   horizontalCenter="0" textColor="0x9F946D" size="24" bold="true" bottom="30" visible="false"/>
+	<e:Button id="LTZLBtn" skinName="Btn0Skin" icon="equipup_icon_skill" label="按钮雷霆之力" enabled="true" right="40" top="64"/>
+	<e:Image id="LevelImage" source="num_json.lv_8_png" right="72" top="92" visible="false"/>
+	<e:Button id="closeBtn" label="按钮" skinName="Btn0Skin" icon="chatclose" y="46" scaleX="0.8" scaleY="0.8" horizontalCenter="266"/>
+</e:Skin>

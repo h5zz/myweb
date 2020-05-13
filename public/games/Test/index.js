@@ -1,26 +1,20 @@
-// var QuickSDK= window["QuickSDK"];
-//0 测试 1 正式
-window["loginType"] = 0;
+/**
+ * Date: 2020-5-13;
+ * Author: 33;
+ */
 
-//平台
-window["pf"] = "test";
-
-window["platform"] = "quick";
-
-window["noticeTxt"] = "测试测试测";
-
-//资源版本
-window["resVersion"] = "?v=2020033105";
+window["loginType"] = 0; //0 测试 1 正式
+window["pf"] = "test"; ///平台
+window["platform"] = "quick"; //接入平台
+window["QuickSDK"] = "";
+window["noticeTxt"] = "测试测试测公告"; //页面公告
+window["resVersion"] = "?v=2020033105"; //资源版本
 window["thmVersion"] = "?v=2020033004";
-
-//拉取服务器列表
-window["serviceListdUrl"] = "";
-
-//订单号
-window["orderUrl"] = "";
+window["serviceListdUrl"] = ""; //拉取服务器列表
+window["orderUrl"] = ""; //订单号
 
 
-var webViewJavascriptBridge = null; //对象名应用可自行指定
+var webViewJavascriptBridge = null; //原生交互对象
 
 if (window["h5PT"] == 200) {
     document.addEventListener('WebViewJavascriptBridgeReady', function(event) {
@@ -46,6 +40,8 @@ if (urlData.indexOf("?") != -1) {
 
 document.getElementById("mainDiv").innerHTML = '<iframe id="paramIframe" style="border: 0px; width: 100%;height: 99%;"src="indexlogin.html?v=2019091701"></iframe>';
 
+var serverLogin = "http://bdwxyx.nongplay.com/Web/liaobei_h5/login.php?code=" //登录
+
 function Login() {
     var pIframe = document.getElementById("paramIframe");
     if (pIframe) {
@@ -54,7 +50,7 @@ function Login() {
             if (window['userData'] && window['userData']['code']) {
                 var reqHttpRequest = pIframe.contentWindow.reqHttpRequest;
                 if (reqHttpRequest) {
-                    var verifyUrl = "http://bdwxyx.nongplay.com/Web/liaobei_h5/login.php?code=" + window['userData']['code'];
+                    var verifyUrl = serverLogin + window['userData']['code'];
                     reqHttpRequest(verifyUrl, function(e) {
                         if (e) {
                             var verifData = JSON.parse(e);

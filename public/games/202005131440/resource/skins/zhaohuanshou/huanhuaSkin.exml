@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="huanhuaSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        xmlns:tween="egret.tween.*" width="554"
+        height="930" >
+	<e:Image top="0" bottom="0" source="tongyongmianbanbg2" width="580" horizontalCenter="0" scale9Grid="15,12,2,3" />
+	<e:Image width="570" horizontalCenter="0" source="tongyongmianbanbg" top="44" bottom="155" scale9Grid="19,12,14,14" />
+	<e:Group width="556" horizontalCenter="0" bottom="58" >
+		<e:Image source="bantoumingkuang4" x="0" top="0" bottom="0" width="278" height="90"/>
+		<e:Image source="bantoumingkuang4" scaleX="-1" right="0" top="0" bottom="0" width="278" height="90"/>
+	</e:Group>
+	<ns1:BaseComponent id="roleSelect" skinName="RoleSelectPanelSkin" width="580" horizontalCenter="0" className="RoleSelectPanel"  top="0"/>
+	<e:Group  right="22" top="92">
+		<e:Group id="group0" scaleX="1" scaleY="1" top="-29" horizontalCenter="0" visible="false">
+			<e:Button id="btn0" label="" icon="jiantouxuan" skinName="Btn0Skin" scaleX="1" scaleY="1" y="-8" x="39" rotation="90"/>
+			<e:Image id="rightRed0" x="15" y="-8" source="zjmhongdian" touchEnabled="false"/>
+		</e:Group>
+		<e:Group id="group1" scaleX="1" scaleY="1" bottom="-40" horizontalCenter="0" visible="false">
+			<e:Button id="btn1" label="" icon="jiantouxuan" skinName="Btn0Skin" scaleX="1" scaleY="1" rotation="-90" y="39"/>
+			<e:Image id="rightRed1" x="20" y="18" source="zjmhongdian" touchEnabled="false"/>
+		</e:Group>
+		<e:Scroller id="listScroller" scrollPolicyH="off" scaleX="1" scaleY="1" height="290" horizontalCenter="0">
+			<e:List id="list" itemRendererSkinName="ZhanlingZBItemSkin" anchorOffsetY="0" height="336">
+			<e:layout>
+				<e:VerticalLayout gap="-6"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		
+	</e:Group>
+	<ns1:BaseComponent id="powerPanel" skinName="PowerPanelSkin" className="PowerPanel" horizontalCenter="0" top="56"/>
+	<e:Image id="zhanlingName" source="zl_name_1" top="82" horizontalCenter="-211"/>
+	<ns1:BaseComponent id="lv" skinName="LvSkin" x="96" y="146" className="ItemStage" enabled="true"/>
+	<e:Button id="huanhua" label="" icon="zl_huanhua_btn" skinName="Btn0Skin"  x="26" y="373.5"/>
+		<e:Group horizontalCenter="13" bottom="377" anchorOffsetY="0" height="115">
+		<e:Image source="shuxingbg" left="0" right="0" top="0" bottom="0" scale9Grid="50,5,65,34"/>
+			<e:Label id="original0" text="召唤兽属性增加至道士角色身上" size="18" scaleX="1" scaleY="1" bold="true" textColor="0xCECEAD" anchorOffsetX="0" width="376" textAlign="center" x="0" y="0"/>
+			<e:Label id="curAtt" text="攻击：800\n攻击：8201\n攻击：8000" size="18" textAlign="left" verticalAlign="justify" textColor="0x9f946d" scaleX="1" scaleY="1" horizontalCenter="-112" verticalCenter="10"/>
+			<e:Label id="nextAtt" text="攻击：800\n攻击：8000\n攻击：8000" size="18" textColor="0x2ECA22" textAlign="left" verticalAlign="justify" horizontalCenter="110" x="0" scaleX="1" scaleY="1"  verticalCenter="10"/>
+			<e:Image id="cursor" source="jiantouyou" horizontalCenter="0" verticalCenter="10"/>
+
+		</e:Group>
+
+
+		<e:Group horizontalCenter="6" bottom="307"   anchorOffsetX="0" width="446">
+			<e:Group scaleX="1" scaleY="1" touchChildren="true" touchEnabled="false" x="100" y="5">
+				<e:Image source="quality0" scale9Grid="8,8,48,48" width="60" height="60" y="0" x="0"/>
+				<e:Image id="skillIcon1" width="50" height="50" touchEnabled="true" source="yupei_skill_1" y="5" x="5"/>
+
+				<e:Rect id="blackImg1" width="60" height="60" fillAlpha="0.6" scaleX="1" scaleY="1" touchEnabled="false" y="0" x="0" visible="false"/>
+			</e:Group>
+			<e:Group scaleX="1" scaleY="1" touchChildren="true" touchEnabled="false" x="220" y="5">
+				<e:Image source="quality0" scale9Grid="8,8,48,48" width="60" height="60" y="0" x="0"/>
+				<e:Image id="skillIcon2" width="50" height="50" touchEnabled="true" source="yupei_skill_2" y="5" x="5"/>
+
+				<e:Rect id="blackImg2" width="60" height="60" fillAlpha="0.6" scaleX="1" scaleY="1" touchEnabled="false" x="0" y="0" visible="false"/>
+			</e:Group>
+			<e:Group scaleX="1" scaleY="1" touchEnabled="false" touchChildren="true" x="340" y="5">
+				<e:Image source="quality0" scale9Grid="8,8,48,48" width="60" height="60" y="0" x="0"/>
+				<e:Image id="skillIcon3" width="50" height="50" touchEnabled="true" source="yupei_skill_3" y="5" x="5"/>
+
+				<e:Rect id="blackImg3" width="60" height="60" fillAlpha="0.6" scaleX="1" scaleY="1" touchEnabled="false" y="0" x="0" visible="false"/>
+			</e:Group>
+
+
+			<e:Image source="zl_jineng" x="30" y="0"/>
+
+		</e:Group>
+		<e:Group width="500" height="60" id="starGroup" scaleX="0.8" scaleY="0.8"  horizontalCenter="0" bottom="270"/>
+	<e:Group id="bossGroup" width="467.5" height="440" scaleX="0.8" scaleY="0.8" horizontalCenter="-2" bottom="478" anchorOffsetY="0" anchorOffsetX="0">
+
+	</e:Group>
+		<e:Group id="barGroup" width="525" height="40" scaleX="1" scaleY="1"  bottom="253"  horizontalCenter="-9.5"/>
+
+		<e:Group id="dinghong" height="75" anchorOffsetY="0" width="556" horizontalCenter="0" bottom="160">
+			<e:Image top="0" bottom="0" source="bantoumingkuang3" left="0" width="296"/>
+			<e:Image scaleX="-1" top="0" bottom="0" source="bantoumingkuang3" width="296" right="0" />
+			<e:Group id="upBtnGroup" scaleX="1" scaleY="1"  verticalCenter="0" horizontalCenter="0">
+				<e:Button id="upBtn" label="一键升星" skinName="Btn1Skin" width="156" height="60" y="0" x="0"/>
+				<e:Button id="upBtnEx" label="激 活" skinName="Btn1Skin" width="156" height="60"  x="0" y="0"/>
+				<e:Image id="upRedPoint" source="zjmhongdian" x="132" y="0"/>
+			</e:Group>
+			<e:Group id="costGroup"  left="5" anchorOffsetX="0" width="193" anchorOffsetY="0" height="51" verticalCenter="-1">
+				<e:Label id="expendLabel" text="消耗：" size="20" bold="true" x="0" y="10" textColor="0xD1C28F" />
+				<e:Image id="icon" x="55" width="40" height="40" y="-2" source="207024_png"/>
+				<e:Label id="countLabel" text="12000/100" size="18" textAlign="center" textColor="0xD1C28F" x="101" y="12" />
+				<e:layout>
+					<e:BasicLayout/>
+				</e:layout>
+
+			</e:Group>
+			<e:CheckBox label="元宝自动购买" skinName="CheckBox0" id="checkBoxs"  right="7" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="maxLevel" width="158" height="40"  bottom="177" horizontalCenter="0" visible="false">
+			<e:Image source="bantoutiaobg" left="0" right="0" top="0" bottom="0"/>
+			<e:Label textColor="0xFFD862" text="已满阶" size="20" width="144" height="84" verticalAlign="middle" textAlign="center" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+	<e:Button id="closeBtn" label="按钮" skinName="Btn0Skin" icon="chatclose" y="4" scaleX="0.8" scaleY="0.8" horizontalCenter="255.5"/>
+	<e:Image id="skillTitle" horizontalCenter="-154.5"  top="15" source="temaititle_png" visible="false"/>
+</e:Skin>

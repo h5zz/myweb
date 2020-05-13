@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="limittimeXinchun" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="580" height="930">
+	<w:Config id="15c43009529"/>
+	<e:Rect fillAlpha="0.6" left="0" right="0" top="0" bottom="0"/>
+	<e:Image top="480" horizontalCenter="0" anchorOffsetY="0" source="xianshirenwubottombg_png"/>
+	<e:Image top="40"  horizontalCenter="0" anchorOffsetY="0" source="xianshirenwutopbg_png"/>
+
+	<e:Image top="40"  horizontalCenter="0" anchorOffsetY="0" source="xianshirenwutitle"/>
+	<e:Image  horizontalCenter="0" top="210" source="xinchunxianshirenwula1"/>
+	<e:Image top="130" source="fulabel" right="2"/>
+	<e:Image top="130" source="fulabel" left="2"/>
+	<ns1:BaseComponent id="roleSelect" skinName="RoleSelectPanelSkin" className="RoleSelectPanel"  width="580" horizontalCenter="0" currentState="nohead" top="0"/>
+	<e:Image source="biaoti_xianshi_png" horizontalCenter="-155" top="5"/>
+	<e:Group id="timeGroup" width="350" height="30"   top="133" horizontalCenter="0">
+		<e:Group id="deadLine" width="228" height="19" verticalCenter="0" horizontalCenter="0">
+			<e:Label id="time" text="任务剩余时间：119:19:19"   size="16" bold="true" textColor="0x24ff00" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="time66" text="限时任务每日重置、共持续3天" size="16" bold="true" textColor="0x24FF00" horizontalCenter="0.5" verticalCenter="30.5" width="301" textAlign="center"/>
+		</e:Group>
+	</e:Group>
+
+	<e:Group id="jindutiaoGroup" height="60"   top="289" left="35.5" right="35.5" visible="false">
+    <e:Image id="probg" verticalCenter="0" source="fjindutiao" scale9Grid="24,0,225,29" right="36" left="36"/>
+	<e:ProgressBar id="bar0" width="96" height="18" x="55"  verticalCenter="0" value="0" skinName="bar5Skin"/>
+	<e:ProgressBar id="bar1" width="96" height="18" x="206"  skinName="bar6Skin" verticalCenter="0"/>
+	<e:ProgressBar id="bar2" width="96" height="18" x="356"  skinName="bar6Skin" verticalCenter="0"/>
+	<e:Image id="liliankuang"  right="450"  source="jingrililian"  verticalCenter="0"/>
+	<e:Group id="liliancontent" width="74" height="74" verticalCenter="0" right="450">
+			<e:Label id="lilianlab" text="今日历练" y="21"   size="12" textColor="0xe5b52c" left="0" right="0" textAlign="center" bold="true"/>
+			<e:Label id="lilianValue" text="0" y="35"   size="15" bold="true" textColor="0x00ff00" left="0" right="0" textAlign="center" verticalAlign="bottom"/>
+	</e:Group>
+	<e:Image id="jinduKuang1" verticalCenter="0" source="fkuang" right="300"/>
+	<e:Image id="jinduKuang2" verticalCenter="0" source="fkuang" right="150"/>
+	<e:Image id="jinduKuang3" verticalCenter="0" source="fkuang" right="0"/>
+		<ns1:BaseComponent id="gift0" skinName="ItemSkin" scaleX="0.7" scaleY="0.7" className="ItemBase" right="298" verticalCenter="9"/>
+		<e:Group id="eff0" scaleX="0.7" scaleY="0.7" right="330" verticalCenter="2"/>
+		<ns1:BaseComponent id="gif1" skinName="ItemSkin" scaleX="0.7" scaleY="0.7" className="ItemBase" right="148" verticalCenter="9"/>
+		<e:Group id="eff1" scaleX="0.7" scaleY="0.7"  right="180" verticalCenter="2"/>
+		<ns1:BaseComponent id="gift2" skinName="ItemSkin" scaleX="0.7" scaleY="0.7" className="ItemBase" right="-2" verticalCenter="9"/>
+		<e:Group id="eff2" scaleX="0.7" scaleY="0.7" right="30" verticalCenter="2"/>
+	<e:Image id="selectKuang1" verticalCenter="0" source="selectkuang" right="288" visible="false"/>
+	<e:Image id="selectKuang2" verticalCenter="0" source="selectkuang" right="138" visible="false"/>
+	<e:Image id="selectKuang3" verticalCenter="0" source="selectkuang" right="-12" visible="false"/>
+	<e:Image id="lingqu1" verticalCenter="0" source="yilingqu" scaleX="0.75" scaleY="0.75" right="299" visible="false"/>
+	<e:Image id="lingqu2" verticalCenter="0" source="yilingqu" right="149" scaleX="0.75" scaleY="0.75" visible="false"/>
+	<e:Image id="lingqu3" verticalCenter="0" source="yilingqu" right="0" scaleX="0.75" scaleY="0.75" visible="false"/>
+	</e:Group>
+	<e:Scroller width="554" height="313" horizontalCenter="0" verticalCenter="172">
+		<e:List id="list" y="-124"  height="294" horizontalCenter="66" itemRendererSkinName="LimitTimeItemXinchun">
+		<e:layout>
+			<e:TileLayout horizontalGap="4" verticalGap="4"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

@@ -1,0 +1,75 @@
+{
+    "file": "xinnianhongbao.png",
+    "frames": {
+        "getbtn": {
+            "x": 867,
+            "y": 109,
+            "w": 142,
+            "h": 125,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 142,
+            "sourceH": 125
+        },
+        "hongbao1": {
+            "x": 1,
+            "y": 1,
+            "w": 349,
+            "h": 503,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 349,
+            "sourceH": 503
+        },
+        "hongbao2": {
+            "x": 352,
+            "y": 1,
+            "w": 369,
+            "h": 462,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 369,
+            "sourceH": 462
+        },
+        "hongbao3": {
+            "x": 352,
+            "y": 465,
+            "w": 355,
+            "h": 128,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 355,
+            "sourceH": 128
+        },
+        "main_hongbao": {
+            "x": 723,
+            "y": 236,
+            "w": 104,
+            "h": 123,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 104,
+            "sourceH": 123
+        },
+        "mask": {
+            "x": 723,
+            "y": 1,
+            "w": 270,
+            "h": 106,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 270,
+            "sourceH": 106
+        },
+        "sendbtn": {
+            "x": 723,
+            "y": 109,
+            "w": 142,
+            "h": 125,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 142,
+            "sourceH": 125
+        }
+    }
+}

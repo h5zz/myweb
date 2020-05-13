@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BtnTab7Skin" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="104" height="38" width.down="104" width.up="104" height.up="38" height.down="38">
+	<e:Image  y.disabled="5" touchEnabled="false" bottom.down="0" x.down="0" x.up="0" y.up="0" source.down="yeqian2" visible.down="false" width.up="130" height.up="50" scale9Grid="19,6,50,18" left="0" right="0" top="0" bottom="0" source.up="wuxiangou_json.anniu" source.disabled="wuxiangou_json.anniu" source="wuxiangou_json.anniu"/>
+	<e:Image y.disabled="-1" y.down="0" x.up="0" bottom.up="0" visible.disabled="false" x.down="0" touchEnabled="false" source.up="yeqian1" visible.up="false" scale9Grid="15,5,58,22" left="0" right="0" top="0" bottom="0" source.down="wuxiangou_json.anniuliang" source="wuxiangou_json.anniuliang"/>
+	<e:Image id="iconImage" horizontalCenter="0" verticalCenter="0" source="wuxiangou_json.day_1"/>
+	<e:Image touchEnabled="false" scale9Grid="15,5,58,22" source="wuxiangou_json.xuanzhongkuang" left="-3" top="-1" right="-3" bottom="-3" visible.up="false" visible.disabled="false"/>
+</e:Skin>

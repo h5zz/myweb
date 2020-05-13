@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Btn8Skin" states="up,down" currentState="up" xmlns:e="http://ns.egret.com/eui"         xmlns:w="http://ns.egret.com/wing"         width="209" height="120">
+	<e:Image  x.up="0" y.up="0" horizontalCenter="0" y="0" scaleX.down="0.95" scaleY.down="0.95" y.down="4" source="btnshouchong_png"/>
+	<e:Label id="rmb" size="28" text="100元" verticalCenter="-4"
+	         stroke="1" strokeColor="0xff9400" horizontalCenter="2" textColor="0xffffff" size.down="24"/>
+	<e:Group y="94" horizontalCenter="0">
+		<e:Label size="22" text="获得" strokeColor="0x2B2B2B" y="0" textColor="0x20cb30" horizontalCenter="0" x="24" scaleX="1" scaleY="1"/>
+		<e:Label id="yuanbao" size="22" text="40000" strokeColor="0x2b2b2b" bold="true" y="0" horizontalCenter="0" textColor="0xf8b141" x="71" scaleX="1" scaleY="1"/>
+		<e:Label size="22" text="元宝" strokeColor="0x2B2B2B" y="10" textColor="0x20CB30" horizontalCenter="0" x="34" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:HorizontalLayout gap="2"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

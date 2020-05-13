@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TouziJihuaItem" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="560" height="92">
+
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image source="scitembg" scale9Grid="56,26,4,3" left="0" right="0" top="0" bottom="0" x="0" y="0"/>
+		<e:Label id="already" text="已领取" size="20" left="449" verticalCenter="-1" textColor="0x00ff00"/>
+		<e:Button id="get" label="领取" verticalCenter="-3" right="34" skinName="Btn15Skin"/>
+		<e:Image id="redPoint" touchEnabled="false" source="zjmhongdian" right="28" verticalCenter="-15.5" visible="false"/>
+		<e:List id="reward" itemRendererSkinName="ItemSkin" scaleX="0.8" scaleY="0.8" anchorOffsetX="0" y="11" right="153">
+		<e:layout>
+			<e:HorizontalLayout gap="0" />
+		</e:layout>
+
+		</e:List>
+		<e:Label id="leve" text="40级" x="37" y="32" size="22" textColor="0xfffc00"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="vipExchangeItem" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="560" height="108">
+	<w:Config id="1586bdedfef"/>
+	<e:Image left="0" right="0" top="0" bottom="0" scale9Grid="26,25,61,4" source="scitembg"/>
+
+	
+	<e:List id="list" y="7" x="11" useVirtualLayout="true" height="75" width="250">
+			<e:layout>
+				<e:HorizontalLayout gap="2"/>
+			</e:layout>
+		</e:List>
+
+	<ns1:BaseComponent id="itemIcon" x="303" verticalCenter="-10" skinName="ItemIconSkin" className="ItemIcon"/>
+	<e:Button id="buyBtn" label="兑 换" name="buy" right="30" skinName="Btn14Skin" verticalCenter="-5" width="100" height="48"/>
+
+	<e:Label id="num" text="今日可兑换20次" y="78" size="20" textColor="0xD1C28F" textAlign="right" right="8"/>
+	<e:Image id="arrow2" source="tongyongup" x="288" y="49" rotation="90"/>
+	<e:Label id="itemName" text="商品名称" x="279" y="82" size="18" textColor="0x9F946D" width="124" textAlign="center"/>
+	<e:Label id="itemCount" text="10000" x="308" y="52" size="18" width="70" textAlign="left" textColor="0xf2bf1a"/>
+</e:Skin>

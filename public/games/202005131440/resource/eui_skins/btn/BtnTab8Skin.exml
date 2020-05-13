@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BtnTab8Skin" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="106" height="38">
+	<e:Image  left="0" right="0" top="0" bottom="0" source="tab" bottom.up="-4" visible.up="false" bottom.down="-3" scale9Grid.down="23,16,62,2"/>
+	<e:Image left="0" right="0" top="0" bottom="-2" source="tabselect" visible.down="false" bottom.up="0"/>
+	<e:Image id="tab_img"  left="20" right="19" top="10" bottom="10" source="chongzhi10"/>
+</e:Skin>

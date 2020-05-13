@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ThunderIconItemSkin" width="80" height="80" currentState="unlock" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="lock,unlock" >
+	
+	<e:Image id="bg" source="equipup_pos_bg" width="66" height="66" x="5" y="5" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="select" source="equipup_pos_select" width="76" height="76" horizontalCenter="0" verticalCenter="0" visible="false"/>
+
+	<e:Image id="locked" x="2" y="2" source="touxianglock_png"  width="76" height="76"/>
+	<e:Group id="iconGroup" x="0" y="0" scaleX.unlock="-1" scaleX="1"/>
+	<e:Image id="redPoint" source="zjmhongdian" x="59" y="0" includeIn="unlock" visible="false"/>
+	<e:Image id="LevelImage" x="7.66" y="0"   source="num_json.lv_8_png"/>
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Btn31Skin" states="up,down"
+        currentState="up" xmlns:e="http://ns.egret.com/eui"  width="190" height="79">
+	<e:Image left.up="0" right.up="0" top.up="0" bottom.up="0" horizontalCenter.down="0" verticalCenter.down="0" scaleX.down="0.98" scaleY.down="0.98" source="wubeiBtn" source.up="wubeiBtn" source.down="wubeiBtn"/>
+        <e:Label size="26" text="100" id="labelDisplay" x.down="1" y.down="1" horizontalCenter="0" verticalCenter="8" verticalCenter.down="8"  size.down="25" horizontalCenter.up="0" verticalCenter.up="8" textColor="0xffd621" strokeColor="0x7a614b" stroke="2"/>
+</e:Skin>

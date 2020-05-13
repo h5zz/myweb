@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MythEquipSkin" width="580" height="712" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="15c48934528"/>
+	<e:Image horizontalCenter="0" verticalCenter="-1" source="shenhuabg_png"/>
+
+	<ns1:BaseComponent id="powerPanel" skinName="PowerPanelSkin" className="PowerPanel" x="139" y="70" horizontalCenter="0"/>
+	
+	<e:Group id="shengjianQiuGroup" scaleX="0.8" scaleY="0.8"  width="300" anchorOffsetY="0" height="244" left="18" verticalCenter="-24.5">
+	<e:Image id="shengjian_point_0" y="216" x="97.5" width="30" height="30" source="jineng_json.neigongqiu1"/>
+	<e:Image id="shengjian_point_1" source="jineng_json.neigongqiu2" y="191.25" x="60" width="30" height="30"/>
+	<e:Image id="shengjian_point_2" source="jineng_json.neigongqiu2" y="154" x="37.5" width="30" height="30"/>
+	<e:Image id="shengjian_point_3" source="jineng_json.neigongqiu2" y="108" x="27.5" width="30" height="30"/>
+	<e:Image id="shengjian_point_4" source="jineng_json.neigongqiu2" y="62" x="36.25" width="30" height="30"/>
+	<e:Image id="shengjian_point_5" source="jineng_json.neigongqiu2" y="24.75" x="61.25" width="30" height="30"/>
+	<e:Image id="shengjian_point_6" source="jineng_json.neigongqiu2" y="0" x="97.5" width="30" height="30"/>
+	</e:Group>
+	<e:Group id="shengjiaQiuGroup" right="8" scaleX="0.8" scaleY="0.8"  width="300" anchorOffsetY="0" height="244" verticalCenter="-24.5">
+	<e:Image id="shengjia_point_0" source="jineng_json.neigongqiu2" y="216" right="117" width="30" height="30"/>
+	<e:Image id="shengjia_point_1" source="jineng_json.neigongqiu2" y="185" right="73" width="30" height="30"/>
+	<e:Image id="shengjia_point_2" source="jineng_json.neigongqiu2" y="147.75" right="46" width="30" height="30"/>
+	<e:Image id="shengjia_point_3" source="jineng_json.neigongqiu2" y="100.5" right="37" width="30" height="30"/>
+	<e:Image id="shengjia_point_4" source="jineng_json.neigongqiu2" y="59.5" right="48" width="30" height="30"/>
+	<e:Image id="shengjia_point_5" source="jineng_json.neigongqiu2" y="23.5" right="76" width="30" height="30"/>
+	<e:Image id="shengjia_point_6" source="jineng_json.neigongqiu2" y="0" right="117" width="30" height="30"/>
+	</e:Group>
+
+
+
+	<e:Group horizontalCenter="-34.5" verticalCenter="-153.5">
+		<e:Label id="shenjianLa" y="391" textColor="0xDFD1B5" text="未装备" size="20" horizontalCenter="-118.5"/>
+		<e:Label id="shenjiaLa" y="391" textColor="0xDFD1B5" text="未装备" size="20" horizontalCenter="201.5"/>
+	<e:Image id="shenjianKuang" y="285" width="90" height="90" source="wupingkuangNB" x="85"/>
+	<e:Image id="shenjiaKuang" y="283" width="90" height="90" source="wupingkuangNB" x="405"/>
+	<e:Image id="skillKuang" width="110" height="110"  horizontalCenter="35.5" top="279" source="csbk03_png"/>
+	<e:Image id="shenjianSelect" y="279" horizontalCenter="-119.5" source="xuanzhongkuang2" scale9Grid="4,4,8,8" width="100" height="100" />
+	<e:Image id="shenjiaSelect" y="279" horizontalCenter="200.5" source="xuanzhongkuang2" scale9Grid="4,4,8,8" width="100" height="100" />
+	<e:Image source="chuanqi2" horizontalCenter="211" verticalCenter="5.5"/>
+	<e:Image source="chuanqi1" horizontalCenter="-129" verticalCenter="5.5"/>
+	<e:Image id="shenjiaIcon" y="301" horizontalCenter="201.5" width="60" height="60" source="rx_body"/>
+	<e:Image id="shenjianIcon" y="303" horizontalCenter="-119.5" width="60" height="60" source="rx_weapon"/>
+	<e:Image id="skillSelect" horizontalCenter="34.5" scale9Grid="4,4,8,8" width="100" height="100" source="xuanzhongkuang2" y="285"/>
+	<e:Image id="skillIon" horizontalCenter="35.5" width="60" height="60"  source="nqzs_png" y="302"/>
+	</e:Group>
+	
+
+
+
+
+	<e:Group id="skillGroup" width="575" anchorOffsetX="0" anchorOffsetY="0" height="280" horizontalCenter="0.5" bottom="2">
+		<e:Label id="skillName" text="怒气之殇" size="18" textAlign="center" y="19"  textColor="0xf95007" horizontalCenter="1.5" bold="true"/>
+		<e:Image x="1" bottom="0" source="bantoumingkuang3" anchorOffsetY="0"  height="100" y="-26" visible="false"/>
+		<e:Image scaleX="-1" source="bantoumingkuang3" x="556" height="182" bottom="0" anchorOffsetY="0"  visible="false"/>
+		<e:Label id="skillAddAtrr0" size="18" textAlign="center" y="50" left="160" text="神剑部位装备属性增加：30%;" textColor="0x9f946d"/>
+		<e:Label id="skillAddAtrr1" size="18" textAlign="center" y="76" left="160" text="神剑部位装备属性增加：30%;" textColor="0x9f946d"/>
+	    <e:Label id="skillAddAtrr2" size="18" textAlign="center" y="101" left="160" text="致命一击伤害增加：30%；" textColor="0x9f946d"/>
+        <e:Group width="556" height="160" horizontalCenter="0.5" bottom="-20">
+			<e:Image x="1" bottom="0" source="bantoumingkuang3" anchorOffsetY="0" top="0"/>
+			<e:Image scaleX="-1" bottom="0" source="bantoumingkuang3" right="0" anchorOffsetY="0" top="0"/>
+			<e:Label text="部位提升" size="18" textAlign="center" y="9"  left="30" height="18" width="220" textColor="0xf95007" bold="true"/> 
+			<e:Label text="装备提升" size="18" textAlign="center" y="9"  right="30" width="220" textColor="0xf95007" bold="true"/> 
+	        <e:Group id="sjianbuweiGroup"  height="36" width="220" left="30" y="34">
+				<e:Image id="sjianbuweiImg" y="200" width="20" height="20" source="rx_weapon" verticalCenter="0" left="5"/>
+		    	<e:Label id="sjianbuweila" text="神剑部位提升至怒涛" size="18" textAlign="center" y="9"  left="43" textColor="0xf90702" bold="true"/>  				
+	    	</e:Group>
+			 <e:Group id="sjiabuweiGroup"  left="30" width="220" top="78" height="36">
+				<e:Image id="sjiabuweiImg" y="200" width="20" height="20" verticalCenter="0" left="5" source="rx_body"/>
+		    	<e:Label id="sjiabuweila" text="神甲部位提升至怒涛" size="18" textAlign="center"  verticalCenter="0" left="44" textColor="0xf90702" bold="true"/>  				
+	    	</e:Group>
+		 <e:Group id="sjianEquipGroup"  height="36" width="220" right="30" top="34">
+				<e:Image id="sjianEquipImg" y="200" width="20" height="20" source="rx_weapon" verticalCenter="0" left="5"/>
+		    	<e:Label id="sjianEquipla" text="神剑装备提升至怒涛" size="18" textAlign="center" y="9"  left="43" textColor="0xf90702" bold="true"/>  				
+	    	</e:Group>
+			 <e:Group id="sjiaEquipGroup" width="220" right="30" top="78" height="36">
+				<e:Image id="sjiaEquipImg" y="200" width="20" height="20" verticalCenter="0" left="5" source="rx_body"/>
+		    	<e:Label id="sjiaEquipla" text="神甲装备提升至怒涛" size="18" textAlign="center"  verticalCenter="0" left="44" textColor="0xf90702" bold="true"/>  				
+	    	</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Group id="ShenGroup" width="575" anchorOffsetX="0" anchorOffsetY="0" height="280" horizontalCenter="0.5" bottom="30">
+			<e:Label id="shenTipLa1" text="未神话" size="18" textAlign="center"  textColor="0xf95007" height="18" width="220" y="74" left="40" bold="true"/> 
+			<e:Label id="shenTipLa2" text="怒涛" size="18" textAlign="center" y="74"  textColor="0xf95007" width="180" right="60" bold="true"/>
+			<e:Image  horizontalCenter="0" source="jiantouxuan" scaleX="-1" y="105"/> 
+		 	  <e:Group id="lastAttrGroup"  left="30" width="220" height="78" y="50"> 
+		        	<e:Label id="sLastAttr0" text="神甲部位提升至怒涛" size="18" textAlign="left"  y="46"  x="60" textColor="0x9f946d"/> 
+				 	<e:Label id="sLastAttr1" text="神甲部位提升至怒涛" size="18" textAlign="left"  y="64" x="60" textColor="0x9f946d"/> 
+			    	<e:Label id="sLastAttr2" text="神甲部位提升至怒涛" size="18" textAlign="left"  y="82" x="60" textColor="0x9f946d"/> 
+			    	<e:Label id="sLastAttr3" text="神甲部位提升至怒涛" size="18" textAlign="left"  y="100" x="60" textColor="0x9f946d"/> 
+	    	  </e:Group>
+			   <e:Group id="nextAttrGroup"  right="30" width="220" height="78" y="50"> 
+					<e:Label id="sNextAttr0" text="神甲部位提升至怒涛" size="18" textAlign="left"  y="46"  x="30" textColor="0x32ff00"/> 
+				 	<e:Label id="sNextAttr1" text="神甲部位提升至怒涛" size="18" textAlign="left"  y="64" x="30" textColor="0x32ff00"/> 
+			    	<e:Label id="sNextAttr2" text="神甲部位提升至怒涛" size="18" textAlign="left"  y="82" x="30" textColor="0x32ff00"/> 
+			    	<e:Label id="sNextAttr3" text="神甲部位提升至怒涛" size="18" textAlign="left"  y="100" x="30" textColor="0x32ff00"/> 				
+	    	  </e:Group>
+			  <e:Group width="120" height="34" horizontalCenter="0" top="167"> 
+		        	<e:Label text="消耗：" size="18" textAlign="left"  verticalCenter="0" left="0" textColor="0x9f946d"/> 
+					<e:Image id="needEquipImg" y="200" width="28" height="28" source="rx_weapon" verticalCenter="1" left="46"/>
+			    	<e:Label id="needCountLa" text="0/1" size="18" textAlign="left"  x="82" verticalCenter="0" textColor="0x9f946d"/>  				
+	    	  </e:Group>
+			  	<e:Button id="shenhuaBtn" skinName="Btn1Skin" label="神  话" width="120" height="60" horizontalCenter="0" bottom="20"/>
+		<e:Image height="101" y="69" source="shuxingbg" scale9Grid="36,6,113,39" left="0" right="0" anchorOffsetY="0" x="-3" scaleX="1" scaleY="1"/>
+		<e:Image source="shuxingbg2" scale9Grid="188,0,5,32" width="240" scaleX="-1" right="54" y="38" x="523" scaleY="1"/>
+		<e:Image source="shuxingbg2" scale9Grid="188,0,5,32" width="240" left="54" y="38" x="51" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>
