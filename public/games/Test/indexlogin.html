@@ -101,18 +101,18 @@
                 callbackFunction(e)
             });
         }
-        var s = document.createElement('script');
-        s.async = false;
-        s.src = 'login.min.js?v=d2019';
-        s.addEventListener('load', function() {
-            s.parentNode.removeChild(s);
-            s.removeEventListener('load', arguments.callee, false);
-            egret.runEgret({
-                renderMode: "webgl",
-                audioType: 0
-            });
-        }, false);
-        document.body.appendChild(s);
+        // var s = document.createElement('script');
+        // s.async = false;
+        // s.src = 'login.min.js?v=d2019';
+        // s.addEventListener('load', function() {
+        //     s.parentNode.removeChild(s);
+        //     s.removeEventListener('load', arguments.callee, false);
+        //     egret.runEgret({
+        //         renderMode: "webgl",
+        //         audioType: 0
+        //     });
+        // }, false);
+        // document.body.appendChild(s);
     </script>
 </body>
 
