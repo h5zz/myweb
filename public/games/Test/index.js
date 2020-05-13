@@ -44,7 +44,7 @@ if (urlData.indexOf("?") != -1) {
     window['userData'] = null;
 }
 
-document.getElementById("mainDiv").innerHTML = '<iframe id="paramIframe" style="border: 0px; width: 100%;height: 99%;"src="./games/Test/indexlogin.html?v=2019091701"></iframe>';
+document.getElementById("mainDiv").innerHTML = '<iframe id="paramIframe" style="border: 0px; width: 100%;height: 99%;"src="indexlogin.html?v=2019091701"></iframe>';
 
 function Login() {
     var pIframe = document.getElementById("paramIframe");

@@ -28,14 +28,14 @@
         data-multi-fingered="2" data-show-fps="true" data-show-log="true" data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
 
         <script>
-            // var s = document.createElement('script');
-            // s.async = false;
-            // s.src = './games/Test/index.js?' + Math.random();
-            // s.addEventListener('load', function() {
-            //     s.parentNode.removeChild(s);
-            //     s.removeEventListener('load', arguments.callee, false);
-            // }, false);
-            // document.body.appendChild(s);
+            var s = document.createElement('script');
+            s.async = false;
+            s.src = 'index.js?' + Math.random();
+            s.addEventListener('load', function() {
+                s.parentNode.removeChild(s);
+                s.removeEventListener('load', arguments.callee, false);
+            }, false);
+            document.body.appendChild(s);
         </script>
 </body>
 
