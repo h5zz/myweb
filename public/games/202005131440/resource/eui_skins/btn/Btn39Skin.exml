@@ -1,6 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<e:Skin class="Btn39Skin" states="up,down"
-        currentState="up" xmlns:e="http://ns.egret.com/eui"  width="245" height="92">
-	<e:Image left.up="0" right.up="0" top.up="0" bottom.up="0" horizontalCenter.down="0" verticalCenter.down="0" scaleX.down="0.98" scaleY.down="0.98" source="zhaohuanshou2_json.button" anchorOffsetY="0" height="92" verticalCenter="8" horizontalCenter="0" fillMode="scale"/>
-        <e:Label size="24" text="100" id="labelDisplay" x.down="1" y.down="1" horizontalCenter="0" verticalCenter.down="8"  size.down="25" horizontalCenter.up="0" verticalCenter.up="8" textColor="0x3d1412" strokeColor="0x3d1412" stroke="2" anchorOffsetX="0" width="135" fontFamily="Arial" textAlign="center" anchorOffsetY="0" height="38" verticalCenter="29" bottom="-2"/>
-</e:Skin>

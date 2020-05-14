@@ -1,5 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<e:Skin class="StarUpItemSkin" width="103" height="120" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
-	<e:Image id="num" x="2.66" y="0" source="num_json.lv_8_png"/>
-	<e:Image id="redPoint" source="zjmhongdian" x="80" y="0"  visible="false"/>
-</e:Skin>

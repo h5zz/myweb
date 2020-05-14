@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<e:Skin class="ThunderJhItemSkin" width="103" height="120" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
-	<e:Label id="label" text="雷霆之力" x="4" y="96" size="22" textAlign="center" width="95" bold="true" fontFamily="Arial" textColor="0x8e8ef2"/>
-	<e:Image id="icon" touchEnabled="true" width="64" height="64" y="20" x="19.5" anchorOffsetX="0" anchorOffsetY="0" source="101_png" fillMode="clip" scaleX="1"/>
-	<e:Image id="num" x="2.66" y="0" source="num_json.lv_8_png"/>
-	<e:Image id="redPoint" source="zjmhongdian" x="80" y="0"  visible="false"/>
-
-</e:Skin>
